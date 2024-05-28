@@ -6,9 +6,9 @@
 // 5. inheritance var ama extends keyword ile yapılır
 // 6. Interface yapıları yok, class interfaceden implemente olamazlar.
 // 7 . Generic Type yok
-// Getter Setter dediğimiz encapsulation yöntemi var. JAVA benzer, C# daki gibi bir prop auto prop full prop yapısı yok.
+// Getter Setter dediğimiz encapsulation yöntemi var. JAVA'ya benzer, C# daki gibi bir prop auto prop full prop yapısı yok. {get; set;} yok
 
-// public keyword yok bunun yerine class başka bir js dosyasında kullanılacak ise export etmemiz lazım
+// public keyword yok bunun yerine class başka bir js dosyasında kullanılacak ise export etmemiz lazım - export import mantığı var.
 
 // Not ES Class kullanımında class içinde arrow function kullanılmaz. OOP bir geliştirme yapıldığında class içinde ancak method tanımı yapılabilir.
 
@@ -22,6 +22,9 @@ function Person(firstName, lastName) {
 		return `${firstName} ${lastName}`;
 	};
 }
+
+// let person = new Person('choosen', 'neo')
+// console.log(person.getFullName())
 
 // Setter
 // Nesne dışarıdan extend edilebiliyordu bunu yerine class ile birlikte extends keyword geldi.
